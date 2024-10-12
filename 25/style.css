@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins'; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+background-color: #ffff;
+width: 350px;
+height: 370px;
+border-radius: 10px;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+
+.header_option {
+background-color: #333;
+color: #ffff;
+text-align: center;
+line-height: 65px;
+font-size: 25px;
+font-weight: 500;
+
+}
+
+.list_options {
+    padding: 20px 30px ;
+}
+
+.list_options label {
+    
+    border: 1px solid #d3d3d3;
+    display: block;
+    height: 53px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.dot {
+    background-color: #d9d9d9;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: relative;
+    
+}
+.dot::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    display: block;
+    /* background-color: #444; */
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+}
+ .text {
+    padding-left: 10px;
+    font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  transition: all 0.3s ease;
+ }
+
+.list_option input:checked + label {
+background-color: #333;
+color: #fff;
+
+ }
+
+ .list_option input:checked + label .dot {
+    
+    color: #fff;
+    background-color: #fff;
+    
+     }
+
+     .list_option input:checked + label .dot ::before {
+        background-color: #444;
+     }
