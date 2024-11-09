@@ -38,15 +38,10 @@ ul{
     width: 100%;
     background-color: #fff;
     margin-top: 1rem;
+    align-items: center;
     border-radius: 12px;
     box-shadow: 0 2px 8px 0 rgba(99,99,99,0.2);
     padding: 1rem 2rem;
-}
-.left_nav{
-    height: 100%;
-}
-.box-img-log{
-    min-width: 50px;
 }
 
 .d-flex{
@@ -56,6 +51,12 @@ ul{
     align-items: center;
 }
 
+.left_nav{
+    height: 100%;
+}
+.box-img-log{
+    min-height: 50px;
+}
 
 .center_nav ul{
     justify-content: space-between;

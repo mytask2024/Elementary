@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: '';
+    background-color: antiquewhite;
+}
+
+.search_box {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 25px ;
+}
+
+
+.hero_search {
+    
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
