@@ -25,11 +25,11 @@ input:active {
   border-radius: 100%;
   left: -9rem;
   top: 54%;
-  transform: translate(-38%);
-  -webkit-transform: translate(-38%);
-  -moz-transform: translate(-38%);
-  -ms-transform: translate(-38%);
-  -o-transform: translate(-38%);
+  transform: translateY(-38%);
+  -webkit-transform: translateY(-38%);
+  -moz-transform: translateY(-38%);
+  -ms-transform: translateY(-38%);
+  -o-transform: translateY(-38%);
 }
 .login_page {
   /* background-color: #1e33e9; */
@@ -55,7 +55,7 @@ input:active {
   justify-content: center;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur (22px);
+  backdrop-filter: blur(22px);
 }
 
 .login_page form h1 {
