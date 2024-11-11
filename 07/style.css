@@ -12,7 +12,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.circle_1 {
+.login_page {
     background-color: #ffff;
     width: 81%;
     max-width: 1200px;
@@ -21,6 +21,15 @@ body {
     align-items: center;
 
 }
+/* .circle_1 {
+    background-color: #ffff;
+    width: 81%;
+    max-width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+} */
  
 .login_page form {
     width: 70%;
