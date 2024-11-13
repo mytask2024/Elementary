@@ -144,5 +144,24 @@ ul{
 
 .section-log{  
      font-size: 0.9rem;
-     
+    }
+.center_nav ul li a {
+        
+    font-size: 0.8rem;
+
 }
+
+
+.active {
+    padding: 6px;
+}
+
+.group_icon a svg {
+    width: 13px;
+    font-size: ;
+}
+
+.profile_user{
+    width: 50px; 
+    height: 50px;
+ }
