@@ -81,6 +81,7 @@ color: #5c48ee;
     max-width: 1200px;
     margin: auto;
     gap: 5rem;
+    min-height: 100vh;
  }
 .left_content_header{
     display: flex;
@@ -94,6 +95,7 @@ color: #5c48ee;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
     place-content: center;
+    position: relative;
  }
 
  h1{
@@ -143,3 +145,35 @@ white-space: nowrap;
 box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
     
+.right_content_header img:last-child{
+  transform: translateY(-70px);
+
+}
+
+
+.right_content_header img{
+    border-radius: 10px;
+}
+
+
+.content_img_text{
+
+    background: linear-gradient(to right , rgba(92,72,238,0.6),rgba(15,30,106,0.4));
+    backdrop-filter: blur(30px);
+    color: #fff;
+    padding: 1rem 2rem;
+    width: 100%;
+    max-width: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -50%);
+    border-radius: 10px;
+
+
+}
+
+form > ul li{
+    margin-bottom: 0.5rem;
+    list-style: disc;
+}
